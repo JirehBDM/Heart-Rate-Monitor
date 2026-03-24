@@ -23,6 +23,7 @@ Output = Function( Input ).
 
 ## The Output
 <img width="555" height="95" alt="image" src="https://github.com/user-attachments/assets/896e4958-a900-4408-ad5d-bfc766475180" />
+
 The code displays to the User when their heartrate was abnormally high or low.
 
 ## What I learned
