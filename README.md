@@ -16,7 +16,7 @@ First, the function needs to be defined. The written code first defines the outp
 
 Next, a loop is created to check whether or not the inputted data is empty or not. MATLAB will not run the code and will display its own error, but this error may not be easily understood by the user. To ensure that the user can effectively troubleshoot, an error message is coded to display if the error has occurred due to the file being empty
 
-A loop is then created where the current *heart_data* value is compared to the average of its last 5 values, if the value is higher or lower than 20% of this value, its time(position index) and status(whether it had increased or decreased) are recorded and displayed to the user. If there is no abnormality in the heart rate, the index and status are recorded as *normal*.
+A loop is then created where the current *heart_data* value is compared to the average of its last 5 values, if the value is higher or lower than 20% of this value, its time (position index) and status (whether it had increased or decreased) are recorded and displayed to the user. If there is no abnormality in the heart rate, the index and status are recorded as *normal*.
 
 With the function initialized, a script can be written to load the file *heart.txt* into MatLab and save its contents within a variable we will call *heart_data*. To call the function, simply write it as any function would be written.
 Output = Function( Input ). 
@@ -27,7 +27,7 @@ Output = Function( Input ).
 The code displays to the User when their heartrate was abnormally high or low.
 
 ## What I learned
-###Working with Functions:
+### Working with Functions:
 -  I explored and learned how to write and use functions in Matlab. It's evident that will be extremely useful in summarizing bulky code, and making it easier to re-use useful code for other projects. It's clear to me that further understanding how to use functions will change the way I approach problems in MatLab.
   
 ### Conditional Statements:
